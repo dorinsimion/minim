@@ -3,6 +3,7 @@ public class Minim {
         int a =4;
         int b=5;
         int minim = a<b ? a : b;
-        System.out.println("Minimul este "+ minim);
+        System.out.println("Minimul dintre " +a
+                + " si " +b +" este "+ minim);
     }
 }
